@@ -1,0 +1,709 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flag-1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.flag-1 img {
+  width: 80px;
+  border-radius: 0 40px 0 0;
+  margin-right: -5px;
+  margin-top: -18px;
+}
+
+h1 {
+  text-align: center;
+  width: 250px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: white;
+  border-radius: 5px;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(0, 0, 128);
+}
+
+#discription {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0 40px 0 45px;
+}
+
+hr {
+  border-top: dashed 3px rgb(0, 0, 128);
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.team-section {
+  margin-bottom: 30px;
+}
+
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.team-section h3 {
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  background-color: rgb(0, 0, 128);
+}
+
+.team {
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.item-1 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.item-2 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.item-3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item-4 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.item-5 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.team-member .profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.team-member .profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.profile-image:hover img {
+  scale: 1.1;
+}
+
+.profile-info h2 {
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+
+.team-member .profile-info p {
+  text-align: center;
+  font-size: 17px;
+  color: rgb(80, 80, 142);
+}
+
+.title {
+  font-style: italic;
+}
+
+.heading2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item_1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item_2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.heading {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item01 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item02 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.team-section2 h3 {
+  text-align: center;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: white;
+  margin: auto;
+  padding: 5px;
+  background-color: rgb(0, 0, 128);
+}
+
+.team-section2 .team-2 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.item-01 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item-02 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.item-03 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.item-04 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+
+.item-05 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item-06 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.item-07 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.team-section3 h3 {
+  text-align: center;
+  width: 250px;
+  border-radius: 5px;
+  color: white;
+  margin: auto;
+  padding: 5px;
+  background-color: rgb(0, 0, 128);
+}
+
+.team-section3 .salesTeam {
+  margin: 50px 0 20px 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.salesteam-01 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.salesteam-02 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.salesteam-03 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.salesteam-04 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+
+.salesteam-05 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.salesteam-06 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.salesteam-07 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.flag-2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flag-2 img {
+  width: 80px;
+  margin-left: -5px;
+}
+
+.flag-3 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.flag-3 img {
+  width: 80px;
+  margin-right: -5px;
+}
+
+.flag-4 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flag-4 img {
+  width: 80px;
+  border-radius: 0 0 0 45px;
+  margin: -50px 0 -18px -5px;
+
+}
+
+@media only screen and (max-width: 1098px) {
+  h1 {
+    width: 220px;
+    font-size: 20px;
+  }
+
+  #discription {
+    font-size: 15px;
+  }
+
+  .team-section h2 {
+    font-size: 20px;
+  }
+
+  .team-section h3 {
+    font-size: 18px;
+  }
+
+  .profile-info h2 {
+    font-size: 15px;
+  }
+
+  .team-member .profile-info p {
+    font-size: 16px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-section2 h3 {
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .team-section3 h3 {
+    width: 230px;
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 922px) {
+  .container {
+    width: 80%;
+  }
+  h1 {
+    width: 160px;
+    font-size: 18px;
+  }
+
+  #discription {
+    font-size: 14px;
+  }
+
+  .team-section h2 {
+    font-size: 18px;
+  }
+
+  .team-section h3 {
+    font-size: 18px;
+  }
+
+  .team-member .profile-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .profile-info h2 {
+    font-size: 13px;
+  }
+
+  .team-member .profile-info p {
+    font-size: 14px;
+  }
+
+  .team-section2 {
+    margin-top: -50px;
+  }
+
+  .heading2 {
+    margin-bottom: -10px;
+  }
+
+  .heading {
+    margin-bottom: -40px;
+  }
+
+  .team-section2 h3 {
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .team-2 {
+    margin-bottom: -10px;
+  }
+
+  .team-section3 h3 {
+    width: 230px;
+    font-size: 18px;
+  }
+
+  .flag-1 img {
+    width: 50px;
+  }
+
+  .flag-1 img {
+    margin-top: -12px;
+    margin-right: -3.5px;
+    border-radius: 0 30px 0 0;
+  }
+
+  .flag-2 img {
+    width: 50px;
+    margin-left: -3.5px;
+  }
+
+  .flag-3 img {
+    width: 50px;
+    margin-right: -3.5px;
+  }
+
+  .flag-4 img {
+    width: 50px;
+    border-radius: 0 0 0 30px;
+    margin-bottom: -22px;
+    margin-left: -3.2px;
+  }
+
+}
+
+@media only screen and (max-width: 801px) {
+  h1 {
+    width: 150px;
+    font-size: 17px;
+  }
+
+  #discription {
+    font-size: 13px;
+  }
+
+  .team-section h2 {
+    font-size: 17px;
+  }
+
+  .team-section h3 {
+    font-size: 17px;
+  }
+
+  .team-member .profile-image {
+    width: 65px;
+    height: 65px;
+  }
+
+  .profile-info h2 {
+    font-size: 13px;
+  }
+
+  .team-member .profile-info p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 792px) {
+  h1 {
+    width: 140px;
+    font-size: 15px;
+  }
+
+  #discription {
+    font-size: 11px;
+  }
+
+  .team-section h2 {
+    font-size: 15px;
+  }
+
+  .team-section h3 {
+    width: 220px;
+    font-size: 15px;
+  }
+
+  .team-member .profile-image {
+    width: 65px;
+    height: 65px;
+  }
+
+  .profile-info h2 {
+    font-size: 12px;
+  }
+
+  .team-member .profile-info p {
+    font-size: 13px;
+  }
+
+  .team-section2 h3 {
+    width: 150px;
+    font-size: 15px;
+  }
+
+  .team-section3 h3 {
+    width: 200px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  h1 {
+    width: 150px;
+    font-size: 15px;
+  }
+
+  #discription {
+    font-size: 13px;
+  }
+
+  .team-section h2 {
+    font-size: 17px;
+  }
+
+  .team-section h3 {
+    width: 210px;
+    font-size: 14px;
+  }
+
+  .team-member .profile-image {
+    width: 65px;
+    height: 65px;
+  }
+
+  .profile-info h2 {
+    font-size: 11px;
+  }
+
+  .team-member .profile-info p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  h1 {
+    width: 150px;
+    font-size: 14px;
+  }
+
+  #discription {
+    padding: 0 15px 0 15px;
+    font-size: 10px;
+  }
+
+  hr {
+    margin-top: -10px;
+  }
+
+  .team-section #meet {
+    margin-top: -10px;
+  }
+
+  #Leadership {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+
+  .heading2 {
+    margin-top: 40px;
+    margin-bottom: -25px;
+  }
+
+  .team-section h2 {
+    font-size: 14px;
+  }
+
+  .team-member .profile-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-info h2 {
+    font-size: 9px;
+  }
+
+  .team-member .profile-info p {
+    font-size: 10px;
+  }
+
+  .team-section2 h3 {
+    width: 140px;
+    font-size: 14px;
+  }
+
+  .team-section3 h3 {
+    width: 180px;
+    font-size: 14px;
+  }
+
+  .flag-1 img {
+    width: 50px;
+    border-radius: 0;
+  }
+
+  .flag-1 {
+    margin-top: -2px;
+  }
+
+  .flag-2 img {
+    width: 50px;
+  }
+
+  .flag-3 img {
+    width: 50px;
+  }
+
+  .flag-4 img {
+    width: 50px;
+    border-radius: 0;
+  }
+
+}
+
+@media only screen and (max-width: 348px) {
+  h1 {
+    width: 110px;
+    font-size: 13px;
+  }
+
+  #discription {
+    font-size: 8px;
+  }
+
+  hr {
+    margin-bottom: 25px;
+  }
+
+  .team {
+    margin-top: 20px;
+  }
+
+  .team-section h2 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .team-member .profile-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile-info h2 {
+    font-size: 8px;
+    font-weight: 00;
+    margin-bottom: -10px;
+  }
+
+  .team-member .profile-info p {
+    margin-top: 12px;
+    font-size: 8px;
+  }
+
+  .team-section2 h3 {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .team-section3 h3 {
+    width: 160px;
+    font-size: 12px;
+  }
+
+}
